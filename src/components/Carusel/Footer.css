@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f-container {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+.container {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gray;
+}
+.container .question {
+    padding: 10px;
+}
+.container .question h4 {
+    padding: 23px 0;
+    font-size: 22px;
+}
+.container .question h4, .container .question p {
+    transition: 0.5s;
+}
+.container .question h4:hover, .container .question p:hover {
+    color: red;
+}
+.container .question .social-media {
+    /* background-color: #fff; */
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 0.5px solid gray;
+}
+.container .question .social-media span {
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.container .question .social-media span:hover {
+    color: red;
+}
+.container .Compania {
+    padding: 10px;
+}
+.container .Compania h4 {
+    padding: 23px 0;
+    font-size: 22px;
+}
+.container .Compania p {
+    transition: 0.5s;
+}
+.container .Compania h4:hover, .container .Compania p:hover {
+    color: red;
+}
+p, h4 {
+    transition: 0.5s;
+}
+p:hover, h4:hover {
+    color: red;
+}
+.container .Costumer {
+    padding: 10px;
+}
+.container .Costumer h4 {
+    padding: 23px 0;
+    font-size: 22px;
+}
+.container .information {
+    padding: 10px;    
+}
+.container .information h4 {
+    padding: 23px 0;
+    font-size: 22px;
+}
+
+.container-karta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px;
+    margin-top: 30px;
+}
+.container-karta .box-karta {
+    display: flex;
+    align-items: center;
+}
+.container-karta .box-karta div {
+    background-color: #fff;
+    width: 60px;
+    height: 25px;
+    margin-right: 5px;
+}
+.container-karta .box-payingapp div {
+    background-color: #fff;
+    width: 95px;
+    height: 25px;
+    margin-right: 5px;
+}
+.container-karta .box-karta img {
+    width: 60px;
+    height: 25px;
+    margin-right: 10px;
+    /* border-radius: 2px solid white; */
+    display: inline-block;
+    padding: 3px 6px;
+}
+.container-karta .box-payingapp {
+    display: flex;
+    align-items: center;
+}
+.container-karta .box-payingapp img {
+    width: 95px;
+    height: 25px;
+    /* border-radius: 2px solid white; */
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px 6px;
+}
+
+.Copyright {
+    margin-top: 30px;
+    padding: 10px 120px;
+}
+.Copyright p {
+    font-size: 12px;
+}

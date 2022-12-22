@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-brand img {
+    width: 120px;
+}
+.card-brand {
+    width: 210px;
+    height: 120px;
+    /* background-color: red; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carusel1 {
+    margin-top: 10px ;
+    height: 150px;
+}
+.carusel2 {
+    margin: 30px 0;
+    height: 150px;
+}

@@ -1,0 +1,35 @@
+.bottom-header-nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.bottom-header-menu:hover{
+    color: red;
+}
+
+.bottom-header-nav .btn1 {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+}
+.bottom-header-nav span {
+    font-size: 16px;
+}
+.bottom-header-nav span:hover {
+    color: red;
+    
+}
+
+.bottom-header-nav .btn {
+    font-size: 20px;
+    font-weight: 700;
+}
+.bottom-header-nav .btn:hover {
+    color: red;
+    
+}
